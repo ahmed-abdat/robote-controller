@@ -63,7 +63,6 @@ const App: React.FC = () => {
         color: isDarkMode ? '#fff' : '#333',
       },
       duration: 2000,
-      onClose: () => setVisibleToasts(prev => prev - 1),
     })
 
     setVisibleToasts(prev => prev + 1)
